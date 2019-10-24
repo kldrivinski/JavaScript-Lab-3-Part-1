@@ -28,11 +28,11 @@ book.add("joseph", "joe@email.com", "3134520300", "father");
 book.add("maureen", "mo@email.com", "3134520300", "sister");
 book.add("william", "bill@email.com", "3134520300", "brother");
 
-// console.log(book.contacts);
+console.log(book.contacts);
 
-// book.deleteAt(1);
+book.deleteAt(1);
 
-// console.log(book.contacts);
+console.log(book.contacts);
 
 function print(AddressBook) {
   for (const key of AddressBook.contacts) {
