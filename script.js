@@ -41,6 +41,9 @@ function display() {
         <p>Phone: ${contact.phone}</p>
         <p>Relation: ${contact.relation}</p>
         <i class="fa fa-trash" data-index="${index}" aria-hidden="true"></i>`;
+        // safely appending text 
+        const paragraphs = new.Entry.querySelectorAll("p");
+        paragraphs[0].innerText += contact.name;
         document.querySelector("#contacts").appendChild(newRecord); // adds new div to the container div
 
     });
