@@ -1,5 +1,11 @@
 body{
-    background: url(addressbook-pt2.jpg)  top center / 100% no-repeat rgba(0,0,0,0.6)  ;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("addressbook-pt2.jpg");
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  
     font-family: 'Maven Pro', sans-serif;
 
 }
